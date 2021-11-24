@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.23)  24 NOV 2021 22:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.23)  25 NOV 2021 02:29
 entering extended mode
 **./Report_Lab_2.tex
 (Report_Lab_2.tex
@@ -605,23 +605,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--68
 [1
 
 {C:/Users/semen/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
-(Report_Lab_2.aux) ) 
+<./Figures//image_1.jpg, id=13, 422.32782pt x 158.84344pt>
+File: ./Figures//image_1.jpg Graphic file (type jpg)
+<use ./Figures//image_1.jpg>
+Package pdftex.def Info: ./Figures//image_1.jpg  used on input line 94.
+(pdftex.def)             Requested size: 341.43306pt x 128.4201pt.
+ [3 <./Figures//image_1.jpg>]
+<./Figures//image_2.png, id=22, 712.16063pt x 289.08pt>
+File: ./Figures//image_2.png Graphic file (type png)
+<use ./Figures//image_2.png>
+Package pdftex.def Info: ./Figures//image_2.png  used on input line 144.
+(pdftex.def)             Requested size: 341.43306pt x 138.59361pt.
+<./Figures//image_3.jpg, id=23, 379.4175pt x 212.29312pt>
+File: ./Figures//image_3.jpg Graphic file (type jpg)
+<use ./Figures//image_3.jpg>
+Package pdftex.def Info: ./Figures//image_3.jpg  used on input line 156.
+(pdftex.def)             Requested size: 341.43306pt x 191.0426pt.
+ [4 <./Figures//image_2.png> <./Figures//image_3.jpg>]
+<./Figures//image_4.jpg, id=29, 485.56406pt x 383.18156pt>
+File: ./Figures//image_4.jpg Graphic file (type jpg)
+<use ./Figures//image_4.jpg>
+Package pdftex.def Info: ./Figures//image_4.jpg  used on input line 175.
+(pdftex.def)             Requested size: 284.52756pt x 224.53159pt.
+
+[5 <./Figures//image_4.jpg>] [6] [7] (Report_Lab_2.aux) ) 
 Here is how much of TeX's memory you used:
- 5428 strings out of 479618
- 80070 string characters out of 2874902
- 381069 words of memory out of 3000000
- 22547 multiletter control sequences out of 15000+200000
- 407779 words of font info for 33 fonts, out of 3000000 for 9000
+ 5502 strings out of 479618
+ 81155 string characters out of 2874902
+ 397094 words of memory out of 3000000
+ 22602 multiletter control sequences out of 15000+200000
+ 413367 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,5n,77p,315b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
--t2a/dpi600\larm1200.pk> <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/ljfour/l
-h/lh-t2a/dpi600\labx1728.pk> <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/
-ljfour/lh/lh-t2a/dpi600\larm1440.pk>
-Output written on Report_Lab_2.pdf (2 pages, 38694 bytes).
+ 69i,12n,77p,1020b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\semen\AppDa
+ta\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1200.pk> <C:\Users\semen\A
+ppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\sem
+en\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users
+\semen\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\U
+sers\semen\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C
+:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
+les/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Report_Lab_2.pdf (7 pages, 224168 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
+ 265 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
