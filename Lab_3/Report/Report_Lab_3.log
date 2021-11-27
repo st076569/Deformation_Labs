@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.21)  27 NOV 2021 16:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.21)  27 NOV 2021 16:47
 entering extended mode
 **./Report_Lab_3.tex
 (Report_Lab_3.tex
@@ -627,6 +627,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--190
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--218
+
+ []
+
 [5] [6] [7] (Report_Lab_3.aux)
 
 LaTeX Warning: There were multiply-defined labels.
@@ -654,7 +669,7 @@ rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Khayr/AppData
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
 rs/Khayr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 >
-Output written on Report_Lab_3.pdf (7 pages, 287638 bytes).
+Output written on Report_Lab_3.pdf (7 pages, 287612 bytes).
 PDF statistics:
  275 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
