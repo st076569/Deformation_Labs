@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.21)  1 DEC 2021 23:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.21)  2 DEC 2021 00:46
 entering extended mode
 **./Report_Lab_3.tex
 (Report_Lab_3.tex
@@ -619,68 +619,44 @@ Package pdftex.def Info: ./Figures//image_1.jpg  used on input line 153.
 (pdftex.def)             Requested size: 426.79134pt x 247.21135pt.
 
 [4 <./Figures//image_1.jpg>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
+Underfull \hbox (badness 10000) in paragraph at lines 209--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--272
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--272
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--272
-
+Overfull \hbox (1.8416pt too wide) in paragraph at lines 217--235
+ [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5] [6] [7] (Report_Lab_3.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[5] [6] [7] (Report_Lab_3.aux) ) 
 Here is how much of TeX's memory you used:
- 5585 strings out of 478864
- 84992 string characters out of 2848660
- 437400 words of memory out of 3000000
- 23438 multiletter control sequences out of 15000+600000
+ 5584 strings out of 478864
+ 84987 string characters out of 2848660
+ 425400 words of memory out of 3000000
+ 23437 multiletter control sequences out of 15000+600000
  413367 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,15n,77p,1230b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Khayr\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati12
-00.pk> <C:\Users\Khayr\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
-rm1200.pk> <C:\Users\Khayr\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi60
-0\labx1728.pk> <C:\Users\Khayr\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/d
-pi600\labx1440.pk> <C:\Users\Khayr\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
-2a/dpi600\larm1440.pk><C:/Users/Khayr/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmex10.pfb><C:/Users/Khayr/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Khayr/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Khayr/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Khayr/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Khayr/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
-rs/Khayr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb
->
-Output written on Report_Lab_3.pdf (7 pages, 291405 bytes).
+ 67i,14n,77p,1230b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Khayr\AppData\Local\MiKTeX\fonts/pk/
+ljfour/lh/lh-t2a/dpi600\lati1200.pk> <C:\Users\Khayr\AppData\Local\MiKTeX\fonts
+/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Khayr\AppData\Local\MiKTeX\f
+onts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Khayr\AppData\Local\MiKT
+eX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Khayr\AppData\Local\
+MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Users/Khayr/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Khayr/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users
+/Khayr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+C:/Users/Khayr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><C:/Users/Khayr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr8.pfb><C:/Users/Khayr/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><C:/Users/Khayr/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Report_Lab_3.pdf (7 pages, 292109 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
+ 277 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
