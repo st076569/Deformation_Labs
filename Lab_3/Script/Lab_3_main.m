@@ -1,20 +1,28 @@
 K = 6.4 * 10^-7;
 E = 0.7*10^5; % [МПа]
 nu = 0.33; 
-a = 300;   %[мм]
-l = 260;   %[мм]
-d = 41;    %[мм]
-h = 1;     %[мм]
+a = 300;    %[мм]
+l = 260;    %[мм]
+d = 41;     %[мм]
+h = 1;      %[мм]
+d_x = 1;    %[мм] погрешность
 F = 10;    %[H]
 n0 = [966 824 851]; % данные ид недеформированного образца
 n = readmatrix('data.csv');
 
 % теор расчет
-sigma_m_th = 4*F*l/(pi*h*d^2);             % [МПа]
-tau_m_th = 2*F*a/(pi*h*d^2);
-sigma_1_th = sigma_m_th/2 + sqrt((sigma_m_th/2)^2 + tau_m_th^2 );    % [МПа]
-sigma_3_th = sigma_m_th/2 - sqrt((sigma_m_th/2)^2 + tau_m_th^2 );    % [МПа]
-tg_2beta_th = 2*tau_m_th/sigma_m_th;
+syms sigmam_th(ll,hh,dd) taum_th(aa,hh,dd)
+sigmam_th(ll,hh,dd) = 4*F*ll/(pi*hh*dd^2);             % [МПа]
+taum_th(aa,hh,dd) = 2*F*aa/(pi*hh*dd^2);
+syms sigma1_th(ll,aa,hh,dd) sigma3_th(ll,aa,hh,dd) tg2beta_th(ll,aa,hh,dd)
+sigma1_th(ll,aa,hh,dd) = sigmam_th(ll,hh,dd)/2 + sqrt((sigmam_th(ll,hh,dd)/2)^2 + taum_th(aa,hh,dd)^2 );    
+sigma3_th(ll,aa,hh,dd) = sigmam_th(ll,hh,dd)/2 - sqrt((sigmam_th(ll,hh,dd)/2)^2 + taum_th(aa,hh,dd)^2 );   
+tg2beta_th(ll,aa,hh,dd) = 2*taum_th(aa,hh,dd)/sigmam_th(ll,hh,dd);
+sigma_1_th = double(sigma1_th(l,a,h,d));    % [МПа]
+sigma_3_th = double(sigma3_th(l,a,h,d));    % [МПа]
+tg_2beta_th = double(tg2beta_th(l,a,h,d));  % [-]
+beta_th = atan(tg_2beta_th)/2;                % [рад]
+
 
 %расчет средней разности и деформаций
 n_aver(1,:) = n0;
@@ -39,9 +47,12 @@ sigma1(e11,e33) = E*(e11 + nu*e33)/(1 - nu^2);
 sigma3(e11,e33) = E*(e33 + nu*e11)/(1 - nu^2);
 sigma_1 = double(sigma1(e_1,e_3));          %[МПа]
 sigma_3 = double(sigma3(e_1,e_3));          %[МПа]
-syms tg2beta(ez,eu,ev);
+syms tg2beta(ez,eu,ev) beta_(ez,eu,ev);
 tg2beta(ez,eu,ev) = (2*ez - ev - eu)/(eu - ev);
 tg_2beta = double(tg2beta(e_z,e_u,e_v));
+
+beta_(ez,eu,ev) = atan(tg2beta(ez,eu,ev))/2;
+beta = double(beta_(e_z,e_u,e_v));  %[рад]
 
 %погрешность
 for i = 1:4
@@ -60,8 +71,8 @@ e1_ez = diff(e1,ez);
 e1_eu = diff(e1,eu);
 e1_ev = diff(e1,ev);
 e3_ez = diff(e3,ez);
-e3_eu = diff(e3,ez);
-e3_ev = diff(e3,ez);
+e3_eu = diff(e3,eu);
+e3_ev = diff(e3,ev);
 de1 = (abs(double(e1_ez(e_z,e_u,e_v))) + abs(double(e1_eu(e_z,e_u,e_v))) + abs(double(e1_ev(e_z,e_u,e_v))))*de;
 de3 = (abs(double(e3_ez(e_z,e_u,e_v))) + abs(double(e3_eu(e_z,e_u,e_v))) + abs(double(e3_ev(e_z,e_u,e_v))))*de;
 
@@ -77,13 +88,21 @@ tg2beta_eu = diff(tg2beta,eu);
 tg2beta_ez = diff(tg2beta,ez);
 dtg2beta = (abs(double(tg2beta_ez(e_z,e_u,e_v))) + abs(double(tg2beta_eu(e_z,e_u,e_v))) + abs(double(tg2beta_ev(e_z,e_u,e_v))))*de;
 
-%таблички
-output_data(:,1) = 10:10:40;      % прикладываемая сила
-output_data(:,2:1:4) = delta_n *K*10^5; % деформация для 3 тд   *10^-5
+beta_ev = diff(beta_,ev);
+beta_eu = diff(beta_,eu);
+beta_ez = diff(beta_,ez);
+dbeta = (abs(double(beta_ez(e_z,e_u,e_v))) + abs(double(beta_eu(e_z,e_u,e_v))) + abs(double(beta_ev(e_z,e_u,e_v))))*de;
 
-output_data_2(1,:) = round([sigma_1_th sigma_3_th tg_2beta_th],2);       % теория
-output_data_2(2,:) = round([sigma_1 sigma_3 tg_2beta],2);                % эксперимент
-output_data_2(3,:) = round([dsigma_1/abs(sigma_1)*100 dsigma_3/abs(sigma_3)*100 dtg2beta/tg_2beta*100],0); %относительная погрешность
+
+%таблички
+output_data(:,1) = 10:10:40;          % прикладываемая сила
+output_data(:,2:1:4) = delta_n *K*10^5; % деформация для 3х тд   *10^-5
+output_data(5,:) = [10 e_z*10^5 e_u*10^5 e_v*10^5];  % средние значения
+
+
+output_data_2(1,:) = round([sigma_1_th sigma_3_th tg_2beta_th beta_th*180/pi],2);       % теория
+output_data_2(2,:) = round([sigma_1 sigma_3 tg_2beta beta*180/pi],2);                % эксперимент
+output_data_2(3,:) = round([dsigma_1/abs(sigma_1)*100 dsigma_3/abs(sigma_3)*100 dtg2beta/tg_2beta*100 dbeta/beta*100],0); %относительная погрешность
 
 writematrix(output_data,'output_1.csv');
 writematrix(output_data_2,'output_2.csv');
