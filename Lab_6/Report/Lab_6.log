@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.21)  12 DEC 2021 02:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.21)  13 DEC 2021 00:40
 entering extended mode
 **./Lab_6.tex
 (Lab_6.tex
@@ -499,14 +499,14 @@ LaTeX Font Info:    ... okay on input line 21.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* h-part:(L,W,R)=(42.67912pt, 497.92325pt, 56.9055pt)
 * v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
+* \textwidth=497.92325pt
 * \textheight=702.78308pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
 * \topmargin=-1.1381pt
 * \headheight=0.0pt
 * \headsep=0.0pt
@@ -619,19 +619,64 @@ File: ./Pictures//pic_1.png Graphic file (type png)
 Package pdftex.def Info: ./Pictures//pic_1.png  used on input line 97.
 (pdftex.def)             Requested size: 426.79134pt x 184.4217pt.
  [5 <./Pictures//pic_1.png>]
-Overfull \hbox (14.24158pt too wide) in paragraph at lines 132--155
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Pictures//nu_1.jpg, id=27, 496.10344pt x 383.93437pt>
+File: ./Pictures//nu_1.jpg Graphic file (type jpg)
+<use ./Pictures//nu_1.jpg>
+Package pdftex.def Info: ./Pictures//nu_1.jpg  used on input line 194.
+(pdftex.def)             Requested size: 256.0748pt x 198.17656pt.
+
+Overfull \hbox (56.90854pt too wide) in paragraph at lines 194--195
  [][] 
  []
 
-[6] (Lab_6.aux) ) 
+<./Pictures//nu_2.jpg, id=28, 483.30562pt x 382.42876pt>
+File: ./Pictures//nu_2.jpg Graphic file (type jpg)
+<use ./Pictures//nu_2.jpg>
+Package pdftex.def Info: ./Pictures//nu_2.jpg  used on input line 199.
+(pdftex.def)             Requested size: 252.6606pt x 199.92613pt.
+
+Overfull \hbox (53.49434pt too wide) in paragraph at lines 199--200
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Pictures//teta_1.jpg, id=29, 493.845pt x 386.19281pt>
+File: ./Pictures//teta_1.jpg Graphic file (type jpg)
+<use ./Pictures//teta_1.jpg>
+Package pdftex.def Info: ./Pictures//teta_1.jpg  used on input line 208.
+(pdftex.def)             Requested size: 256.0748pt x 200.2498pt.
+
+Overfull \hbox (56.90854pt too wide) in paragraph at lines 208--209
+ [][] 
+ []
+
+File: ./Pictures//nu_2.jpg Graphic file (type jpg)
+<use ./Pictures//nu_2.jpg>
+Package pdftex.def Info: ./Pictures//nu_2.jpg  used on input line 213.
+(pdftex.def)             Requested size: 253.22934pt x 200.37546pt.
+
+Overfull \hbox (54.06308pt too wide) in paragraph at lines 213--214
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6] [7 <./Pictures//nu_1.jpg> <./Pictures//nu_2.jpg>] [8 <./Pictures//teta_1.jp
+g>] (Lab_6.aux) ) 
 Here is how much of TeX's memory you used:
- 5561 strings out of 478864
- 84716 string characters out of 2848660
- 427314 words of memory out of 3000000
- 23417 multiletter control sequences out of 15000+600000
+ 5587 strings out of 478864
+ 85277 string characters out of 2848660
+ 435327 words of memory out of 3000000
+ 23439 multiletter control sequences out of 15000+600000
  410891 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,13n,77p,823b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,13n,77p,823b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Khayr\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2
 a/dpi600\larm1200.pk> <C:\Users\Khayr\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/l
 h-t2a/dpi600\labx1728.pk> <C:\Users\Khayr\AppData\Local\MiKTeX\fonts/pk/ljfour/
@@ -640,10 +685,11 @@ our/lh/lh-t2a/dpi600\larm1440.pk><C:/Users/Khayr/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Khayr/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Khayr/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Khayr/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Lab_6.pdf (6 pages, 158747 bytes).
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kha
+yr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Lab_6.pdf (8 pages, 298428 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
+ 247 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

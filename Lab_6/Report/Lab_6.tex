@@ -5,7 +5,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[12pt, a4paper]{article}
-\usepackage[left=2cm, right=2cm, top=2.5cm, bottom=2.5cm, nohead]{geometry}
+\usepackage[left=1.5cm, right=2cm, top=2.5cm, bottom=2.5cm, nohead]{geometry}
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage[english, russian]{babel}
@@ -99,7 +99,7 @@
     	\label{pic_wow}
     \end{figure}
     
-    Измерили необходимые расстояния для 2 экспериментов, когда нагружение происходит в точке $1$, и когда груз подвешен в точке $2$, также замерили высоту $h$ и толщину $b$ балки с оценкой погрешности.
+    Измерили необходимые расстояния для 2 экспериментов, когда нагружение происходит в точке $1$, и когда груз подвешен в точке $2$, также замерили высоту $h$ и толщину $b$ балки с оценкой погрешности. \\
     \begin{table}[h]
     \centering
     
@@ -121,8 +121,9 @@
     
     \label{tablichka}
 	\caption{Начальные данные.}    
-    \end{table}\\
-    Далее провели 2 эксперимента, постепенно нагружая, затем разружая балку, снимали показания с индикаторов и занесли в таблицу, учитывая, что погрешность измереий равна юююююю : 
+    \end{table}
+    
+	Далее провели 2 эксперимента, постепенно нагружая, затем разружая балку, снимали показания с индикаторных головок часового типа и занесли в таблицу, учитывая, что систематическая погрешность измерений $\Delta x = 10^{-2}$мм : 
 
 	\newpage
     
@@ -137,7 +138,7 @@
      \cline{3-8}
      & & 1 & 2 & 3 & 1 & 2 & 3 \\
      \cline{2-8}
-     & Н &\multicolumn{3}{c|}{мкм??? 0.01}& \multicolumn{3}{c|}{мкм??? 0.01}\\
+     & Н &\multicolumn{3}{c|}{$ \cdot 10^{-2} $ мм}& \multicolumn{3}{c|}{$\cdot 10^{-2} $ мм}\\
 	 \hline
 	 1 & 1 & 2 & -5 & 1 & 1 & -4 & 1 \\
 	 2 & 2 & 5 & -10 & 3 & 4 & -12 & 5 \\
@@ -155,6 +156,63 @@
     
     \caption{Экспериментальные данные.}
     \end{table}
+    
+    \begin{table}[h]
+    \centering
+    
+    \begin{tabular}{|M{1cm}|M{1cm}|M{2cm}|M{2cm}|M{2cm}|M{2cm}|M{2cm}|M{2cm}|}
+    \hline
+    \multirow{4}{*}{№} & \multirow{3}{*}{P} & \multicolumn{3}{c|}{1 эксперимент} & \multicolumn{3}{c|}{2 эксперимент} \\
+    \cline{3-8}
+     & & \multicolumn{3}{c|}{Показания индикаторов} & \multicolumn{3}{c|}{Показания индикаторов} \\
+     \cline{3-8}
+     & & 1 & 2 & 3 & 1 & 2 & 3 \\
+     \cline{2-8}
+     & Н &\multicolumn{3}{c|}{мкм??? 0.01}& \multicolumn{3}{c|}{мкм??? 0.01}\\
+	 \hline
+	 1 & 1 &  \\
+	 2 & 2 &  \\
+	 3 & 3 &  \\
+	 4 & 5 &  \\
+	 5 & 7 &  \\
+	 6 & 12 & \\
+	 7 & 7 & \\
+	 8 & 5 & \\
+	 9 & 3 &  \\
+	 10 & 2 &  \\
+	 11 & 1 &  \\  
+    \hline
+    \end{tabular}
+    
+    \caption{Экспериментальные данные.}
+    \end{table}
 
+ 
+\begin{figure}[h]
+\begin{minipage}[h]{0.4\linewidth}
+\centering
+\includegraphics[width = 9cm]{nu_1.jpg}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.4\linewidth}
+\centering
+\includegraphics[width = 8.88cm]{nu_2.jpg}
+\end{minipage}
+\caption{Графики зависимости прогиба $\nu$ от нагрузки в 2 экспериментах}
+\label{nu}
+\end{figure}
+
+\begin{figure}[h]
+\begin{minipage}[h]{0.4\linewidth}
+\centering
+\includegraphics[width = 9cm]{teta_1.jpg}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.4\linewidth}
+\centering
+\includegraphics[width = 8.9cm]{nu_2.jpg}
+\end{minipage}
+\caption{Графики зависимости угла поворота $\theta$ от нагрузки в 2 экспериментах}
+\end{figure}
 
 \end{document}
