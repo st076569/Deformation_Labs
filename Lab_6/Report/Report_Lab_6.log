@@ -1,42 +1,42 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.21)  14 DEC 2021 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.23)  16 DEC 2021 05:58
 entering extended mode
-**./Lab_6.tex
-(Lab_6.tex
-LaTeX2e <2021-06-01>
-L3 programming layer <2021-06-01>
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+**./Report_Lab_6.tex
+(Report_Lab_6.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03>
+("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+("C:\Program Files\MiKTeX\tex/latex/base\size12.clo"
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count182
-\c@section=\count183
-\c@subsection=\count184
-\c@subsubsection=\count185
-\c@paragraph=\count186
-\c@subparagraph=\count187
-\c@figure=\count188
-\c@table=\count189
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+("C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty"
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks15
 )
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+("C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty"
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+("C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty"
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count190
-\Gm@cntv=\count191
-\c@Gm@tempcnt=\count192
+\Gm@cnth=\count185
+\Gm@cntv=\count186
+\c@Gm@tempcnt=\count187
 \Gm@bindingoffset=\dimen139
 \Gm@wd@mp=\dimen140
 \Gm@odd@mp=\dimen141
@@ -45,67 +45,65 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutheight=\dimen144
 \Gm@layouthoffset=\dimen145
 \Gm@layoutvoffset=\dimen146
-\Gm@dimlist=\toks17
+\Gm@dimlist=\toks16
 
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen147
 \Gin@req@width=\dimen148
-) (C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
 )
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2021/06/02 3.60 The Babel package
+("C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty"
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.sty"
+Package: babel 2020/12/16 3.52 The Babel package
 
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
-File: babel.def 2021/06/02 3.60 Babel common definitions
-\babel@savecnt=\count193
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.def"
+File: babel.def 2020/12/16 3.52 Babel common definitions
+\babel@savecnt=\count188
 \U@D=\dimen149
-\l@unhyphenated=\language79
+\l@babelnohyphens=\language79
 
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+("C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def")
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count194
+\bbl@dirlevel=\count189
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+("C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
-df
+("C:\Program Files\MiKTeX\tex/latex/babel-english\english.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: Hyphen rules for 'canadian' set to \l@english
-(babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 108.
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 108.
 )
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/babel-russian\russianb.
-ldf
+("C:\Program Files\MiKTeX\tex/latex/babel-russian\russianb.ldf"
 File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
 Language: russian 2020/09/09 1.3k Russian support for the Babel system
 
@@ -115,13 +113,13 @@ Package babel Warning: No Cyrillic font encoding has been loaded so far.
 (babel)                Default `T2A' encoding will be loaded  on input line 78.
 
 
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2aenc.def
+("C:\Program Files\MiKTeX\tex/latex/cyrillic\t2aenc.def"
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
 
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/base\t2aenc.dfu
-File: t2aenc.dfu 2021/01/27 v1.2l UTF-8 support for inputenc
+("C:\Program Files\MiKTeX\tex/latex/base\t2aenc.dfu"
+File: t2aenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
    defining Unicode char U+00A4 (decimal 164)
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00AB (decimal 171)
@@ -322,174 +320,149 @@ File: t2aenc.dfu 2021/01/27 v1.2l UTF-8 support for inputenc
 Package babel Info: Making " an active character on input line 124.
 Package babel Info: Default for \cyrdash is provided on input line 163.
 ))
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+("C:\Program Files\MiKTeX\tex/latex/latex-tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2021/04/20 v2.17j AMS math features
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
+\@emptytoks=\toks19
 \ex@=\dimen150
 ))
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen151
 )
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count195
+\inf@bad=\count190
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count196
-\leftroot@=\count197
+\uproot@=\count191
+\leftroot@=\count192
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count198
-\DOTSCASE@=\count199
+\classnum@=\count193
+\DOTSCASE@=\count194
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box50
-\strutbox@=\box51
+\Mathstrutbox@=\box47
+\strutbox@=\box48
 \big@size=\dimen152
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count266
-\c@MaxMatrixCols=\count267
+\macc@depth=\count195
+\c@MaxMatrixCols=\count196
 \dotsspace@=\muskip16
-\c@parentequation=\count268
-\dspbrk@lvl=\count269
-\tag@help=\toks21
-\row@=\count270
-\column@=\count271
-\maxfields@=\count272
-\andhelp@=\toks22
+\c@parentequation=\count197
+\dspbrk@lvl=\count198
+\tag@help=\toks20
+\row@=\count199
+\column@=\count266
+\maxfields@=\count267
+\andhelp@=\toks21
 \eqnshift@=\dimen153
 \alignsep@=\dimen154
 \tagshift@=\dimen155
 \tagwidth@=\dimen156
 \totwidth@=\dimen157
 \lineht@=\dimen158
-\@envbody=\toks23
+\@envbody=\toks22
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks24
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
-Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
-\LTleft=\skip52
-\LTright=\skip53
-\LTpre=\skip54
-\LTpost=\skip55
-\LTchunksize=\count273
-\LTcapwidth=\dimen159
-\LT@head=\box52
-\LT@firsthead=\box53
-\LT@foot=\box54
-\LT@lastfoot=\box55
-\LT@gbox=\box56
-\LT@cols=\count274
-\LT@rows=\count275
-\c@LT@tables=\count276
-\c@LT@chunks=\count277
-\LT@p@ftn=\toks25
-)
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+("C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty"
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip56
-\multirow@cntb=\count278
-\multirow@dima=\skip57
-\bigstrutjot=\dimen160
+\multirow@colwidth=\skip52
+\multirow@cntb=\count268
+\multirow@dima=\skip53
+\bigstrutjot=\dimen159
 )
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
-\col@sep=\dimen161
-\ar@mcellbox=\box57
-\extrarowheight=\dimen162
-\NC@list=\toks26
-\extratabsurround=\skip58
-\backup@length=\skip59
-\ar@cellbox=\box58
+("C:\Program Files\MiKTeX\tex/latex/latex-tools\array.sty"
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen160
+\ar@mcellbox=\box49
+\extrarowheight=\dimen161
+\NC@list=\toks24
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box50
 )
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+("C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+("C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count279
-\rotFPtop=\skip60
-\rotFPbot=\skip61
-\rot@float@box=\box59
-\rot@mess@toks=\toks27
+\c@r@tfl@t=\count269
+\rotFPtop=\skip56
+\rotFPbot=\skip57
+\rot@float@box=\box51
+\rot@mess@toks=\toks25
 )
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+("C:\Program Files\MiKTeX\tex/latex/caption\subcaption.sty"
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
 
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+("C:\Program Files\MiKTeX\tex/latex/caption\caption.sty"
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+("C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty"
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen163
-\captionmargin@=\dimen164
-\captionwidth=\dimen165
-\caption@tempdima=\dimen166
-\caption@indent=\dimen167
-\caption@parindent=\dimen168
-\caption@hangindent=\dimen169
+\captionmargin=\dimen162
+\captionmargin@=\dimen163
+\captionwidth=\dimen164
+\caption@tempdima=\dimen165
+\caption@indent=\dimen166
+\caption@parindent=\dimen167
+\caption@hangindent=\dimen168
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count280
-\c@continuedfloat=\count281
-Package caption Info: longtable package is loaded.
-
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
-Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
-)
+\c@caption@flags=\count270
+\c@continuedfloat=\count271
 Package caption Info: rotating package is loaded.
 )
-\c@subfigure=\count282
-\c@subtable=\count283
+\c@subfigure=\count272
+\c@subtable=\count273
 )
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count284
-\l__pdf_internal_box=\box60
-) (Lab_6.aux
+("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
+File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count274
+\l__pdf_internal_box=\box52
+)
+(Report_Lab_6.aux
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 5
 .
-
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
+ ("C:\Program Files\MiKTeX\tex/latex/cyrillic\t2acmr.fd"
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
-\openout1 = `Lab_6.aux'.
+\openout1 = `Report_Lab_6.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -525,158 +498,186 @@ LaTeX Font Info:    ... okay on input line 21.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count285
-\scratchdimen=\dimen170
-\scratchbox=\box61
-\nofMPsegments=\count286
-\nofMParguments=\count287
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count288
-\MPscratchDim=\dimen171
-\MPnumerator=\count289
-\makeMPintoPDFobject=\count290
-\everyMPtoPDFconversion=\toks29
-)
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+\scratchcounter=\count275
+\scratchdimen=\dimen169
+\scratchbox=\box53
+\nofMPsegments=\count276
+\nofMParguments=\count277
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count278
+\MPscratchDim=\dimen170
+\MPnumerator=\count279
+\makeMPintoPDFobject=\count280
+\everyMPtoPDFconversion=\toks27
+) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-
-(C:\Users\Khayr\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-LaTeX Info: Redefining \th on input line 21.
+)
+LaTeX Info: Redefining \th on input line 19.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--55
+Underfull \hbox (badness 10000) in paragraph at lines 47--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--55
+Underfull \hbox (badness 10000) in paragraph at lines 47--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--55
+Underfull \hbox (badness 10000) in paragraph at lines 47--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--55
+Underfull \hbox (badness 10000) in paragraph at lines 47--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--55
+Underfull \hbox (badness 10000) in paragraph at lines 47--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--55
+Underfull \hbox (badness 10000) in paragraph at lines 47--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
+Underfull \hbox (badness 10000) in paragraph at lines 61--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
+Underfull \hbox (badness 10000) in paragraph at lines 61--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
+Underfull \hbox (badness 10000) in paragraph at lines 61--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
+Underfull \hbox (badness 10000) in paragraph at lines 61--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
+Underfull \hbox (badness 10000) in paragraph at lines 61--66
 
  []
 
 [1
 
-{C:/Users/Khayr/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2] [3]
-[4]
-<./Pictures//pic_1.png, id=18, 853.68938pt x 368.87813pt>
-File: ./Pictures//pic_1.png Graphic file (type png)
-<use ./Pictures//pic_1.png>
-Package pdftex.def Info: ./Pictures//pic_1.png  used on input line 97.
-(pdftex.def)             Requested size: 426.79134pt x 184.4217pt.
- [5 <./Pictures//pic_1.png>]
+{C:/Users/semen/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
+<./Figures//image_1.png, id=12, 2589.675pt x 1461.20906pt>
+File: ./Figures//image_1.png Graphic file (type png)
+<use ./Figures//image_1.png>
+Package pdftex.def Info: ./Figures//image_1.png  used on input line 92.
+(pdftex.def)             Requested size: 455.24408pt x 256.85252pt.
+ [3 <./Figures//image_1.png>]
+<./Figures//image_2.png, id=19, 464.4853pt x 252.945pt>
+File: ./Figures//image_2.png Graphic file (type png)
+<use ./Figures//image_2.png>
+Package pdftex.def Info: ./Figures//image_2.png  used on input line 107.
+(pdftex.def)             Requested size: 284.52756pt x 154.9485pt.
+ [4 <./Figures//image_2.png>]
+<./Figures//image_3.png, id=28, 663.22781pt x 356.0803pt>
+File: ./Figures//image_3.png Graphic file (type png)
+<use ./Figures//image_3.png>
+Package pdftex.def Info: ./Figures//image_3.png  used on input line 131.
+(pdftex.def)             Requested size: 341.43306pt x 183.31006pt.
+<./Figures//image_4.png, id=29, 1227.83719pt x 551.05875pt>
+File: ./Figures//image_4.png Graphic file (type png)
+<use ./Figures//image_4.png>
+Package pdftex.def Info: ./Figures//image_4.png  used on input line 144.
+(pdftex.def)             Requested size: 398.33858pt x 178.77245pt.
+ [5 <./Figures//image_3.png> <./Figures//image_4.png>] [6]
+<./Figures//image_5.png, id=36, 2089.05469pt x 797.22844pt>
+File: ./Figures//image_5.png Graphic file (type png)
+<use ./Figures//image_5.png>
+Package pdftex.def Info: ./Figures//image_5.png  used on input line 225.
+(pdftex.def)             Requested size: 455.24408pt x 173.72423pt.
+ [7 <./Figures//image_5.png>] [8]
+<./Figures//figure_1.png, id=44, 632.3625pt x 474.27188pt>
+File: ./Figures//figure_1.png Graphic file (type png)
+<use ./Figures//figure_1.png>
+Package pdftex.def Info: ./Figures//figure_1.png  used on input line 353.
+(pdftex.def)             Requested size: 256.0748pt x 192.05734pt.
+
+Overfull \hbox (56.90854pt too wide) in paragraph at lines 353--354
+ [][] 
+ []
+
+<./Figures//figure_2.png, id=45, 632.3625pt x 474.27188pt>
+File: ./Figures//figure_2.png Graphic file (type png)
+<use ./Figures//figure_2.png>
+Package pdftex.def Info: ./Figures//figure_2.png  used on input line 358.
+(pdftex.def)             Requested size: 256.0748pt x 192.05734pt.
+
+Overfull \hbox (56.90854pt too wide) in paragraph at lines 358--359
+ [][] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Pictures//nu_1.jpg, id=27, 496.10344pt x 383.93437pt>
-File: ./Pictures//nu_1.jpg Graphic file (type jpg)
-<use ./Pictures//nu_1.jpg>
-Package pdftex.def Info: ./Pictures//nu_1.jpg  used on input line 188.
-(pdftex.def)             Requested size: 426.79134pt x 330.29428pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Pictures//nu_2.jpg, id=28, 483.30562pt x 382.42876pt>
-File: ./Pictures//nu_2.jpg Graphic file (type jpg)
-<use ./Pictures//nu_2.jpg>
-Package pdftex.def Info: ./Pictures//nu_2.jpg  used on input line 195.
-(pdftex.def)             Requested size: 426.79134pt x 337.72292pt.
+[9 <./Figures//figure_1.png (PNG copy)> <./Figures//figure_2.png (PNG copy)>]
+<./Figures//figure_3.png, id=49, 632.3625pt x 474.27188pt>
+File: ./Figures//figure_3.png Graphic file (type png)
+<use ./Figures//figure_3.png>
+Package pdftex.def Info: ./Figures//figure_3.png  used on input line 419.
+(pdftex.def)             Requested size: 256.0748pt x 192.05734pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (56.90854pt too wide) in paragraph at lines 419--420
+ [][] 
+ []
 
-<./Pictures//teta_1.jpg, id=29, 493.845pt x 386.19281pt>
-File: ./Pictures//teta_1.jpg Graphic file (type jpg)
-<use ./Pictures//teta_1.jpg>
-Package pdftex.def Info: ./Pictures//teta_1.jpg  used on input line 202.
-(pdftex.def)             Requested size: 426.79134pt x 333.75163pt.
+<./Figures//figure_4.png, id=50, 632.3625pt x 474.27188pt>
+File: ./Figures//figure_4.png Graphic file (type png)
+<use ./Figures//figure_4.png>
+Package pdftex.def Info: ./Figures//figure_4.png  used on input line 424.
+(pdftex.def)             Requested size: 256.0748pt x 192.05734pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (56.90854pt too wide) in paragraph at lines 424--425
+ [][] 
+ []
 
-File: ./Pictures//nu_2.jpg Graphic file (type jpg)
-<use ./Pictures//nu_2.jpg>
-Package pdftex.def Info: ./Pictures//nu_2.jpg  used on input line 209.
-(pdftex.def)             Requested size: 426.79134pt x 337.72292pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[6] [7 <./Pictures//nu_1.jpg>] [8 <./Pictures//nu_2.jpg>] [9 <./Pictures//teta_
-1.jpg>] [10] (Lab_6.aux) ) 
+[10 <./Figures//figure_3.png (PNG copy)> <./Figures//figure_4.png (PNG copy)>]
+[11] [12] (Report_Lab_6.aux) ) 
 Here is how much of TeX's memory you used:
- 5590 strings out of 478864
- 85329 string characters out of 2848660
- 434354 words of memory out of 3000000
- 23442 multiletter control sequences out of 15000+600000
- 410891 words of font info for 44 fonts, out of 8000000 for 9000
+ 5417 strings out of 479618
+ 80212 string characters out of 2874902
+ 421642 words of memory out of 3000000
+ 22519 multiletter control sequences out of 15000+200000
+ 413367 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,13n,77p,823b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Khayr\AppData\Local\MiKTeX\fonts/pk/ljfour
-/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Khayr\AppData\Local\MiKTeX\fonts/pk/lj
-four/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Khayr\AppData\Local\MiKTeX\fonts/p
-k/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Khayr\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Users/Khayr/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Khayr/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Khayr/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Kha
-yr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
-Users/Khayr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb>
-Output written on Lab_6.pdf (10 pages, 299366 bytes).
+ 69i,17n,77p,1527b,382s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\semen\AppData\Local\MiKTeX\fonts/pk/lj
+four/lh/lh-t2a/dpi600\lati1200.pk> <C:\Users\semen\AppData\Local\MiKTeX\fonts/p
+k/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\semen\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\semen\AppData\Local\MiKTeX
+\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\semen\AppData\Local\Mi
+KTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Program Files/MiKTeX/font
+s/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
+les/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Report_Lab_6.pdf (12 pages, 1575261 bytes).
 PDF statistics:
- 253 PDF objects out of 1000 (max. 8388607)
+ 310 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

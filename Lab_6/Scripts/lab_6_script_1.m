@@ -22,46 +22,53 @@ delta_teta(:,2) = delta_data *(1/l_1(2)) + delta_l *(data_mean(:,3)/(l_1(2))^2);
 delta_teta(:,3) = delta_data *(1/l_1(3)) + delta_l *(data_mean(:,4)/(l_1(3))^2); 
 
 figure;
-plot(data_mean(:,1), data_mean(:,2),'b-o',data_mean(:,1),abs( data_mean(:,3)),'r-*', data_mean(:,1), data_mean(:,4),'k-x' );
-ylabel('\nu, *10^{-2} мм');
+plot(data_mean(:,1), data_mean(:,2),'b-*',data_mean(:,1),...
+    abs( data_mean(:,3)),'r-*', data_mean(:,1), data_mean(:,4),'k-*',linewidth = 0.8);
+ylabel('\nu, 10^{-2} мм');
 xlabel('P, Н');
-axis([0 13 0 70])
+axis([0 13 -5 70])
 text(data_mean(5,1),data_mean(5,2),'-\leftarrow 1 инд.');
 text(data_mean(5,1),data_mean(5,3),'-\leftarrow 2 инд.');
 text(data_mean(5,1),data_mean(5,4),'-\leftarrow 3 инд.');
-title(' 1 эксперимент');
+title('Опыт №1');
 grid on;
+grid minor;
 
 figure;
-plot(data_mean(:,1), data_mean(:,5),'b-o',data_mean(:,1),data_mean(:,6),'r-*', data_mean(:,1), data_mean(:,7),'k-x' );
-ylabel('\nu, *10^{-2} мм');
+plot(data_mean(:,1), data_mean(:,5),'b-*',data_mean(:,1),...
+    data_mean(:,6),'r-*', data_mean(:,1), data_mean(:,7),'k-*',linewidth = 0.8);
+ylabel('\nu, 10^{-2} мм');
 xlabel('P, Н');
-axis([0 13 0 80])
+axis([0 13 -5 80])
 text(data_mean(5,1),data_mean(5,5),'-\leftarrow 1 инд.');
 text(data_mean(5,1),data_mean(5,6),'-\leftarrow 2 инд.');
 text(data_mean(5,1),data_mean(5,7),'-\leftarrow 3 инд.');
-title('2 эксперимент');
+title('Опыт №2');
 grid on;
+grid minor;
 
 figure;
-plot(data_mean(:,1), tg_teta_1(:,1),'b-o',data_mean(:,1),tg_teta_1(:,2),'r-*', data_mean(:,1), tg_teta_1(:,3),'k-x');
-ylabel('\theta, *10^{-3} rad');
+plot(data_mean(:,1), tg_teta_1(:,1),'b-*',data_mean(:,1),...
+    tg_teta_1(:,2),'r-*', data_mean(:,1), tg_teta_1(:,3),'k-*',linewidth = 0.8);
+ylabel('\theta, 10^{-3} rad');
 xlabel('P, Н');
-axis([0 13 0 4]);
+axis([0 13 -0.2 4]);
 text(data_mean(5,1),tg_teta_1(5,1),'-\leftarrow 1 инд.');
 text(data_mean(5,1),tg_teta_1(5,2),'-\leftarrow 2 инд.');
 text(data_mean(5,1),tg_teta_1(5,3),'-\leftarrow 3 инд.');
-title(' 1 эксперимент');
+title('Опыт №1');
 grid on;
-
+grid minor;
 
 figure;
-plot(data_mean(:,1), tg_teta_2(:,1),'b-o',data_mean(:,1),tg_teta_2(:,2),'r-*', data_mean(:,1), tg_teta_2(:,3),'k-x');
-ylabel('\theta, *10^{-3} rad');
+plot(data_mean(:,1), tg_teta_2(:,1),'b-*',data_mean(:,1),...
+    tg_teta_2(:,2),'r-*', data_mean(:,1), tg_teta_2(:,3),'k-*',linewidth = 0.8);
+ylabel('\theta, 10^{-3} rad');
 xlabel('P, Н');
-axis([0 13 0 4.3]);
+axis([0 13 -0.2 4.3]);
 text(data_mean(5,1),tg_teta_2(5,1),'-\leftarrow 1 инд.');
 text(data_mean(5,1),tg_teta_2(5,2),'-\leftarrow 2 инд.');
 text(data_mean(5,1),tg_teta_2(5,3),'-\leftarrow 3 инд.');
-title(' 2 эксперимент');
+title('Опыт №2');
 grid on;
+grid minor;
